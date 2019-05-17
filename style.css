@@ -61,7 +61,7 @@ li{
   position: relative; /* for disclaimer */
   width: var(--sidebar-width);
   height: 100%;
-  padding: 0.6in var(--sidebar-horizontal-padding);
+  padding: 0 0; /* 0.6in 0 */
   background-color: #f2f2f2;
   font-size: 8.5pt;
 }
@@ -324,8 +324,15 @@ li{
   font-size: 11pt;
 }
 
+.side-block-contact{
+  margin-top: 0.2in;
+  margin-bottom: 1.22in;
+  padding: 0;
+}
+
 .side-block{
-  margin-top: 0.5in; 
+  margin-top: 0.5in;
+  padding-left: var(--sidebar-horizontal-padding);
 }
 
 #contact ul{
